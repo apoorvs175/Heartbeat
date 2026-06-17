@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import SectionReveal from '@/components/SectionReveal';
 import { motion } from 'framer-motion';
-import { Shield, Sparkles, Clock, Smile, Heart, Home, Users, Award, Eye, Target } from 'lucide-react';
+import { Shield, Sparkles, Clock, Smile, Heart, Home, Users, Award, Eye, Target, Quote } from 'lucide-react';
 
 const AboutPage = () => {
   const stats = [
@@ -129,6 +129,70 @@ const AboutPage = () => {
                   </motion.div>
                 );
               })}
+            </div>
+          </div>
+        </section>
+      </SectionReveal>
+
+      {/* Meet Our Founder Section */}
+      <SectionReveal>
+        <section className="py-20 md:py-32 bg-rich-charcoal">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="text-center mb-16">
+              <p className="text-premium-gold text-sm tracking-[0.3em] uppercase mb-6">Meet Our Founder</p>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">The Vision Behind Heartbeat Hotel</h2>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Founder Image */}
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8 }}
+                viewport={{ once: true }}
+                className="relative"
+              >
+                <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-full" />
+                <div className="relative rounded-full overflow-hidden shadow-luxury aspect-square">
+                  <img
+                    src="/images/ownerimage.png"
+                    alt="Founder of Heartbeat Hotel"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </motion.div>
+
+              {/* Founder Message */}
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="bg-deep-charcoal p-8 md:p-12 rounded-3xl border border-premium-gold/20 relative"
+              >
+                <Quote className="w-12 h-12 text-premium-gold/30 absolute top-8 left-8" />
+
+                <p className="text-ivory/70 text-lg md:text-xl leading-relaxed mb-8 relative z-10">
+                  "At Heartbeat Hotel, our mission is to provide every guest with exceptional comfort, genuine hospitality, and memorable experiences. We believe that luxury is not just about beautiful rooms—it is about making every guest feel valued, respected, and at home. Our commitment is to continuously improve our services and create an environment where every stay becomes a cherished memory."
+                </p>
+
+                <div className="border-t border-rich-charcoal pt-8">
+                  <h3 className="text-2xl font-serif font-bold text-premium-gold mb-2">[Owner Name]</h3>
+                  <p className="text-ivory/60 text-sm mb-6">Founder & Managing Director</p>
+
+                  <div className="flex flex-wrap gap-3">
+                    <div className="px-4 py-2 bg-premium-gold/10 border border-premium-gold/30 rounded-full">
+                      <span className="text-premium-gold text-sm font-medium">10+ Years of Hospitality Excellence</span>
+                    </div>
+                    <div className="px-4 py-2 bg-premium-gold/10 border border-premium-gold/30 rounded-full">
+                      <span className="text-premium-gold text-sm font-medium">Customer-First Approach</span>
+                    </div>
+                    <div className="px-4 py-2 bg-premium-gold/10 border border-premium-gold/30 rounded-full">
+                      <span className="text-premium-gold text-sm font-medium">Trusted by Thousands of Guests</span>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
             </div>
           </div>
         </section>
