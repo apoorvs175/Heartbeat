@@ -58,7 +58,7 @@ const AboutPage = () => {
                 <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden shadow-luxury aspect-square">
                   <img
-                    src="/Image/1.png"
+                    src="/images/1.png"
                     alt="HeartBeat Hotel"
                     className="w-full h-full object-cover"
                   />

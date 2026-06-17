@@ -2,15 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --foreground-rgb: 250, 248, 245;
   --background-start-rgb: 10, 10, 10;
   --background-end-rgb: 26, 26, 26;
 }
 
-body {
+html, body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, rgb(var(--background-start-rgb)), rgb(var(--background-end-rgb)));
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @layer utilities {

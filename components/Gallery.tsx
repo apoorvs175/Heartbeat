@@ -13,7 +13,10 @@ const Gallery = () => {
     { src: '/images/Ground _Image.jpeg', col: 1, row: 2 },
     { src: '/images/Room_Image.jpeg', col: 2, row: 1 },
     { src: '/images/StudioRoom_Image.jpeg', col: 1, row: 1 },
-    { src: '/images/1.png', col: 1, row: 1 }
+    { src: '/images/1.png', col: 1, row: 1 },
+    { src: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1000&h=600&fit=crop', col: 2, row: 1 },
+    { src: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&h=600&fit=crop', col: 1, row: 1 },
+    { src: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=1200&fit=crop', col: 1, row: 2 }
   ];
 
   return (

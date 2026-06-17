@@ -15,7 +15,7 @@ const RoomsPage = () => {
       description: 'Perfect for individual travelers and students',
       price: '₹4,999',
       features: ['Single Bed', 'High-Speed WiFi', 'Air Conditioned', 'Smart TV', 'Attached Bathroom', '24/7 Security'],
-      image: '/Image/1.png'
+      image: '/images/Room_Image.jpeg'
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const RoomsPage = () => {
       description: 'Ideal for friends and colleagues',
       price: '₹3,999',
       features: ['Double Bed', 'High-Speed WiFi', 'Air Conditioned', 'Smart TV', 'Attached Bathroom', 'Study Table'],
-      image: '/Image/1.png'
+      image: '/images/StudioRoom_Image.jpeg'
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const RoomsPage = () => {
       description: 'Great for groups and students',
       price: '₹2,999',
       features: ['Triple Bed', 'High-Speed WiFi', 'Air Conditioned', 'Smart TV', 'Attached Bathroom', 'Locker Facility'],
-      image: '/Image/1.png'
+      image: '/images/Hall_Area.jpeg'
     }
   ];
 

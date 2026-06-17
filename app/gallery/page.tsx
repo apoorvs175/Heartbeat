@@ -8,12 +8,15 @@ import { motion } from 'framer-motion';
 
 const GalleryPage = () => {
   const galleryImages = [
-    { src: '/Image/1.png', category: 'Exterior', title: 'Hotel Building' },
-    { src: '/Image/1.png', category: 'Reception', title: 'Reception Area' },
-    { src: '/Image/1.png', category: 'Rooms', title: 'Premium Room' },
-    { src: '/Image/1.png', category: 'Amenities', title: 'Common Area' },
-    { src: '/Image/1.png', category: 'Rooms', title: 'Deluxe Room' },
-    { src: '/Image/1.png', category: 'Exterior', title: 'Hotel Front' }
+    { src: '/images/Hall_Area.jpeg', category: 'Exterior', title: 'Hotel Building' },
+    { src: '/images/Corridore_Image.jpeg', category: 'Reception', title: 'Reception Area' },
+    { src: '/images/Room_Image.jpeg', category: 'Rooms', title: 'Premium Room' },
+    { src: '/images/Ground _Image.jpeg', category: 'Amenities', title: 'Common Area' },
+    { src: '/images/StudioRoom_Image.jpeg', category: 'Rooms', title: 'Deluxe Room' },
+    { src: '/images/1.png', category: 'Exterior', title: 'Hotel Front' },
+    { src: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop', category: 'Lobby', title: 'Luxury Lobby' },
+    { src: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&h=600&fit=crop', category: 'Rooms', title: 'Executive Suite' },
+    { src: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop', category: 'Rooms', title: 'Cozy Studio' }
   ];
 
   return (

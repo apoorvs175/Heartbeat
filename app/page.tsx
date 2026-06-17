@@ -16,9 +16,9 @@ export default function Home() {
   ];
 
   const roomsPreview = [
-    { id: 1, name: 'Single Occupancy', price: '₹4,999', features: ['Single Bed', 'WiFi', 'AC'] },
-    { id: 2, name: 'Double Sharing', price: '₹3,999', features: ['Double Bed', 'WiFi', 'AC'] },
-    { id: 3, name: 'Triple Sharing', price: '₹2,999', features: ['Triple Bed', 'WiFi', 'AC'] }
+    { id: 1, name: 'Single Occupancy', price: '₹4,999', features: ['Single Bed', 'WiFi', 'AC'], image: '/images/Room_Image.jpeg' },
+    { id: 2, name: 'Double Sharing', price: '₹3,999', features: ['Double Bed', 'WiFi', 'AC'], image: '/images/StudioRoom_Image.jpeg' },
+    { id: 3, name: 'Triple Sharing', price: '₹2,999', features: ['Triple Bed', 'WiFi', 'AC'], image: '/images/Hall_Area.jpeg' }
   ];
 
   return (
@@ -101,7 +101,7 @@ export default function Home() {
                 >
                   <div className="relative overflow-hidden">
                     <img
-                      src="/Image/1.png"
+                      src={room.image}
                       alt={room.name}
                       className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
@@ -180,7 +180,11 @@ export default function Home() {
               </h2>
             </div>
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              {[1, 2, 3].map((_, index) => (
+              {[
+                { src: '/images/Ground _Image.jpeg' },
+                { src: '/images/Corridore_Image.jpeg' },
+                { src: '/images/1.png' }
+              ].map((item, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -190,7 +194,7 @@ export default function Home() {
                   className="relative overflow-hidden rounded-3xl aspect-square group"
                 >
                   <img
-                    src="/Image/1.png"
+                    src={item.src}
                     alt={`Gallery ${index + 1}`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -247,7 +251,7 @@ export default function Home() {
               </div>
               <div className="bg-rich-charcoal rounded-3xl overflow-hidden border border-rich-charcoal aspect-square">
                 <img
-                  src="/Image/1.png"
+                  src="/images/Ground _Image.jpeg"
                   alt="Location"
                   className="w-full h-full object-cover"
                 />

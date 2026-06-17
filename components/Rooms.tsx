@@ -24,7 +24,7 @@ const Rooms = () => {
     {
       title: 'Deluxe Twin',
       icon: BedDouble,
-      image: '/images/Room_Image.jpeg',
+      image: '/images/Hall_Area.jpeg',
       features: ['Two Queen Beds', 'Spacious Living', 'Mini Bar', 'Workstation', 'Coffee Machine', 'Daily Housekeeping']
     }
   ];

@@ -76,7 +76,7 @@ const About = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-luxury">
               <img
                 src="/images/Ground _Image.jpeg"
-                alt="Luxury Suite"
+                alt="Luxury Hotel Interior"
                 className="w-full h-auto object-cover"
               />
             </div>

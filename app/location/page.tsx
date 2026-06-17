@@ -74,7 +74,7 @@ const LocationPage = () => {
               </div>
               <div className="bg-rich-charcoal rounded-3xl overflow-hidden border border-rich-charcoal aspect-square">
                 <img
-                  src="/Image/1.png"
+                  src="/images/1.png"
                   alt="Location Map"
                   className="w-full h-full object-cover"
                 />
