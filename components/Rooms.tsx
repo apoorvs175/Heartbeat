@@ -12,20 +12,20 @@ const Rooms = () => {
     {
       title: 'Executive Suite',
       icon: User,
-      image: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20single%20room%20executive%20suite%20premium%20elegant%20design&image_size=square_hd',
+      image: '/images/Room_Image.jpeg',
       features: ['King Size Bed', 'Private Balcony', 'Smart TV', 'Work Desk', 'Premium Toiletries', 'Room Service']
     },
     {
-      title: 'Deluxe Twin',
+      title: 'Studio Room',
       icon: Users,
-      image: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20twin%20room%20deluxe%20premium%20interior%20elegant&image_size=square_hd',
-      features: ['Two Queen Beds', 'Spacious Living', 'Mini Bar', 'Workstation', 'Coffee Machine', 'Daily Housekeeping']
+      image: '/images/StudioRoom_Image.jpeg',
+      features: ['Cozy Layout', 'Premium Bed', 'Workstation', 'Coffee Machine', 'Mini Bar', 'Daily Housekeeping']
     },
     {
-      title: 'Family Suite',
+      title: 'Deluxe Twin',
       icon: BedDouble,
-      image: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20family%20suite%20spacious%20premium%20modern%20design&image_size=square_hd',
-      features: ['Multiple Bedrooms', 'Living Area', 'Kitchenette', 'Dining Space', 'Kids Amenities', 'Premium Security']
+      image: '/images/Room_Image.jpeg',
+      features: ['Two Queen Beds', 'Spacious Living', 'Mini Bar', 'Workstation', 'Coffee Machine', 'Daily Housekeeping']
     }
   ];
 

@@ -8,7 +8,7 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         {/* Layer 1: Hotel Image Background */}
-        <div className="absolute inset-0 bg-[url('/Image/1.png')] bg-cover bg-[50%_30%] bg-no-repeat" />
+        <div className="absolute inset-0 bg-[url('/images/Hall_Area.jpeg')] bg-cover bg-[50%_30%] bg-no-repeat" />
         {/* Layer 2: Dark Overlay for Readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-luxury-black/60 via-luxury-black/70 to-luxury-black" />
       </div>

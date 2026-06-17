@@ -8,12 +8,12 @@ const Gallery = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const images = [
-    { src: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20hotel%20exterior%20modern%20architecture%20premium%20design&image_size=square_hd', col: 2, row: 1 },
-    { src: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=elegant%20hotel%20lobby%20reception%20premium%20interior%20gold&image_size=square_hd', col: 1, row: 1 },
-    { src: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20hotel%20restaurant%20fine%20dining%20premium&image_size=square_hd', col: 1, row: 2 },
-    { src: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20hotel%20swimming%20pool%20outdoor%20premium&image_size=square_hd', col: 2, row: 1 },
-    { src: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20hotel%20room%20premium%20bedroom%20elegant&image_size=square_hd', col: 1, row: 1 },
-    { src: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20hotel%20spa%20wellness%20premium&image_size=square_hd', col: 1, row: 1 }
+    { src: '/images/Hall_Area.jpeg', col: 2, row: 1 },
+    { src: '/images/Corridore_Image.jpeg', col: 1, row: 1 },
+    { src: '/images/Ground _Image.jpeg', col: 1, row: 2 },
+    { src: '/images/Room_Image.jpeg', col: 2, row: 1 },
+    { src: '/images/StudioRoom_Image.jpeg', col: 1, row: 1 },
+    { src: '/images/1.png', col: 1, row: 1 }
   ];
 
   return (

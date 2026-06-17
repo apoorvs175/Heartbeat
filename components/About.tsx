@@ -75,9 +75,9 @@ const About = () => {
             <div className="absolute -inset-4 bg-gradient-gold opacity-20 blur-2xl rounded-3xl" />
             <div className="relative rounded-3xl overflow-hidden shadow-luxury">
               <img
-                src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=luxury%20hotel%20suite%20premium%20interior%20elegant%20design%20modern%20furniture&image_size=square_hd"
+                src="/images/Ground _Image.jpeg"
                 alt="Luxury Suite"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
             </div>
           </motion.div>
