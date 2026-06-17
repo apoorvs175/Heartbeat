@@ -5,10 +5,14 @@ import { Phone, MessageCircle, ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center md:items-start justify-center overflow-hidden pt-32 md:pt-40 lg:pt-48">
       <div className="absolute inset-0">
         {/* Layer 1: Hotel Image Background */}
-        <div className="absolute inset-0 bg-[url('/images/1.png')] bg-cover bg-[50%_30%] bg-no-repeat" />
+        <img
+          src="/images/1.png"
+          alt="Heartbeat Hotel"
+          className="absolute inset-0 w-full h-full object-cover object-[50%_10%] md:object-[50%_15%] lg:object-[50%_20%] xl:object-[50%_20%]"
+        />
         {/* Layer 2: Dark Overlay for Readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-luxury-black/60 via-luxury-black/70 to-luxury-black" />
       </div>
