@@ -177,7 +177,7 @@ const AboutPage = () => {
                 </p>
 
                 <div className="border-t border-rich-charcoal pt-8">
-                  <h3 className="text-2xl font-serif font-bold text-premium-gold mb-2">[Owner Name]</h3>
+                  <h3 className="text-2xl font-serif font-bold text-premium-gold mb-2">Shakti Singh</h3>
                   <p className="text-ivory/60 text-sm mb-6">Founder & Managing Director</p>
 
                   <div className="flex flex-wrap gap-3">
