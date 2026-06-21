@@ -16,9 +16,9 @@ export default function Home() {
   ];
 
   const roomsPreview = [
-    { id: 1, name: 'Basic Room', price: '₹1,500 – ₹2,500', features: ['Comfortable Queen Size Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Attached Bathroom', 'Daily Housekeeping'], image: '/images/Room_Image.jpeg' },
-    { id: 2, name: 'Premium Room', price: '₹2,000 – ₹3,500', features: ['Spacious Premium Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV', 'Complimentary Breakfast', 'Attached Luxury Bathroom'], image: '/images/StudioRoom_Image.jpeg' },
-    { id: 3, name: 'Super Deluxe Room', price: '₹3,000 – ₹5,000', features: ['Most Comfortable Luxury Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV & Entertainment Setup', 'Complimentary Breakfast', 'Premium Interior & Seating Area', 'Luxury Attached Bathroom', 'Room Service Available'], image: '/images/Hall_Area.jpeg' }
+    { id: 1, name: 'Basic Room', subtitle: 'Perfect for a comfortable stay', priceLabel: 'Starting from', price: '₹1,000 – ₹2,000', priceSuffix: 'per night', features: ['Comfortable Queen Size Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Attached Bathroom', 'Daily Housekeeping'], image: '/images/Room_Image.jpeg' },
+    { id: 2, name: 'Premium Room', subtitle: 'Ideal for a premium stay experience', priceLabel: 'Starting from', price: '₹2,000 – ₹3,500', priceSuffix: 'per night', features: ['Spacious Premium Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV', 'Complimentary Breakfast', 'Attached Luxury Bathroom'], image: '/images/StudioRoom_Image.jpeg' },
+    { id: 3, name: 'Super Deluxe Room', subtitle: 'Designed for a luxurious stay experience', priceLabel: 'Starting from', price: '₹3,500 – ₹5,000', priceSuffix: 'per night', features: ['Most Comfortable Luxury Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV & Entertainment Setup', 'Complimentary Breakfast', 'Premium Interior & Seating Area', 'Luxury Attached Bathroom', 'Room Service Available'], image: '/images/Hall_Area.jpeg' }
   ];
 
   return (
@@ -105,10 +105,16 @@ export default function Home() {
                       alt={room.name}
                       className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-rich-charcoal/80 to-transparent" />
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <p className="text-premium-gold text-xs tracking-wider font-semibold uppercase mb-1">{room.priceLabel}</p>
+                      <p className="text-xl font-serif font-bold text-white mb-0.5">{room.price}</p>
+                      <p className="text-ivory/70 text-xs">{room.priceSuffix}</p>
+                    </div>
                   </div>
                   <div className="p-8">
                     <h3 className="text-xl font-serif font-bold mb-2">{room.name}</h3>
-                    <p className="text-2xl font-serif font-bold text-premium-gold mb-4">{room.price} / Day</p>
+                    <p className="text-ivory/60 text-sm mb-4">{room.subtitle}</p>
                     <div className="space-y-2 mb-8">
                       {room.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-2 text-ivory/70 text-sm">
