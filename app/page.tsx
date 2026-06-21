@@ -16,9 +16,9 @@ export default function Home() {
   ];
 
   const roomsPreview = [
-    { id: 1, name: 'Single Occupancy', price: '₹4,999', features: ['Single Bed', 'WiFi', 'AC'], image: '/images/Room_Image.jpeg' },
-    { id: 2, name: 'Double Sharing', price: '₹3,999', features: ['Double Bed', 'WiFi', 'AC'], image: '/images/StudioRoom_Image.jpeg' },
-    { id: 3, name: 'Triple Sharing', price: '₹2,999', features: ['Triple Bed', 'WiFi', 'AC'], image: '/images/Hall_Area.jpeg' }
+    { id: 1, name: 'Basic Room', price: '₹1,500 – ₹2,500', features: ['Comfortable Queen Size Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Attached Bathroom', 'Daily Housekeeping'], image: '/images/Room_Image.jpeg' },
+    { id: 2, name: 'Premium Room', price: '₹2,000 – ₹3,500', features: ['Spacious Premium Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV', 'Complimentary Breakfast', 'Attached Luxury Bathroom'], image: '/images/StudioRoom_Image.jpeg' },
+    { id: 3, name: 'Super Deluxe Room', price: '₹3,000 – ₹5,000', features: ['Most Comfortable Luxury Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV & Entertainment Setup', 'Complimentary Breakfast', 'Premium Interior & Seating Area', 'Luxury Attached Bathroom', 'Room Service Available'], image: '/images/Hall_Area.jpeg' }
   ];
 
   return (
@@ -108,7 +108,7 @@ export default function Home() {
                   </div>
                   <div className="p-8">
                     <h3 className="text-xl font-serif font-bold mb-2">{room.name}</h3>
-                    <p className="text-2xl font-serif font-bold text-premium-gold mb-4">{room.price}/month</p>
+                    <p className="text-2xl font-serif font-bold text-premium-gold mb-4">{room.price} / Day</p>
                     <div className="space-y-2 mb-8">
                       {room.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-2 text-ivory/70 text-sm">

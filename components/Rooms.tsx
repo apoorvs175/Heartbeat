@@ -10,22 +10,22 @@ const Rooms = () => {
 
   const rooms = [
     {
-      title: 'Executive Suite',
+      title: 'Basic Room',
       icon: User,
       image: '/images/Room_Image.jpeg',
-      features: ['King Size Bed', 'Private Balcony', 'Smart TV', 'Work Desk', 'Premium Toiletries', 'Room Service']
+      features: ['Comfortable Queen Size Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Attached Bathroom', 'Daily Housekeeping']
     },
     {
-      title: 'Studio Room',
+      title: 'Premium Room',
       icon: Users,
       image: '/images/StudioRoom_Image.jpeg',
-      features: ['Cozy Layout', 'Premium Bed', 'Workstation', 'Coffee Machine', 'Mini Bar', 'Daily Housekeeping']
+      features: ['Spacious Premium Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV', 'Complimentary Breakfast', 'Attached Luxury Bathroom']
     },
     {
-      title: 'Deluxe Twin',
+      title: 'Super Deluxe Room',
       icon: BedDouble,
       image: '/images/Hall_Area.jpeg',
-      features: ['Two Queen Beds', 'Spacious Living', 'Mini Bar', 'Workstation', 'Coffee Machine', 'Daily Housekeeping']
+      features: ['Most Comfortable Luxury Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV & Entertainment Setup', 'Complimentary Breakfast', 'Premium Interior & Seating Area', 'Luxury Attached Bathroom', 'Room Service Available']
     }
   ];
 
@@ -85,10 +85,10 @@ const Rooms = () => {
                     ))}
                   </ul>
                   <a
-                    href="https://wa.me/8279998458"
+                    href="/rooms"
                     className="mt-8 w-full block text-center py-3 border border-premium-gold/30 rounded-full text-premium-gold hover:bg-premium-gold hover:text-luxury-black transition-all duration-300 font-medium"
                   >
-                    Enquire Now
+                    View Details
                   </a>
                 </div>
               </motion.div>

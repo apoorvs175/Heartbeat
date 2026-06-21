@@ -11,26 +11,26 @@ const RoomsPage = () => {
   const rooms = [
     {
       id: 1,
-      name: 'Single Occupancy',
-      description: 'Perfect for individual travelers and students',
-      price: '₹4,999',
-      features: ['Single Bed', 'High-Speed WiFi', 'Air Conditioned', 'Smart TV', 'Attached Bathroom', '24/7 Security'],
+      name: 'Basic Room',
+      description: 'Perfect for a comfortable stay',
+      price: '₹1,500 – ₹2,500',
+      features: ['Comfortable Queen Size Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Attached Bathroom', 'Daily Housekeeping'],
       image: '/images/Room_Image.jpeg'
     },
     {
       id: 2,
-      name: 'Double Sharing',
-      description: 'Ideal for friends and colleagues',
-      price: '₹3,999',
-      features: ['Double Bed', 'High-Speed WiFi', 'Air Conditioned', 'Smart TV', 'Attached Bathroom', 'Study Table'],
+      name: 'Premium Room',
+      description: 'Ideal for a premium stay experience',
+      price: '₹2,000 – ₹3,500',
+      features: ['Spacious Premium Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV', 'Complimentary Breakfast', 'Attached Luxury Bathroom'],
       image: '/images/StudioRoom_Image.jpeg'
     },
     {
       id: 3,
-      name: 'Triple Sharing',
-      description: 'Great for groups and students',
-      price: '₹2,999',
-      features: ['Triple Bed', 'High-Speed WiFi', 'Air Conditioned', 'Smart TV', 'Attached Bathroom', 'Locker Facility'],
+      name: 'Super Deluxe Room',
+      description: 'Great for a luxurious experience',
+      price: '₹3,000 – ₹5,000',
+      features: ['Most Comfortable Luxury Bed', 'Free High-Speed WiFi', 'Air Conditioning', 'Smart TV & Entertainment Setup', 'Complimentary Breakfast', 'Premium Interior & Seating Area', 'Luxury Attached Bathroom', 'Room Service Available'],
       image: '/images/Hall_Area.jpeg'
     }
   ];
@@ -83,8 +83,8 @@ const RoomsPage = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-rich-charcoal/80 to-transparent" />
                     <div className="absolute bottom-4 left-4">
-                      <p className="text-premium-gold text-sm tracking-wider font-semibold">Starting From</p>
-                      <p className="text-3xl font-serif font-bold">{room.price}</p>
+                      <p className="text-premium-gold text-sm tracking-wider font-semibold">Price Range</p>
+                      <p className="text-3xl font-serif font-bold">{room.price} / Day</p>
                     </div>
                   </div>
                   <div className="p-8">
