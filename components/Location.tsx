@@ -79,7 +79,7 @@ const Location = () => {
               <div className="text-center">
                 <MapPin className="w-16 h-16 text-premium-gold mx-auto mb-4" />
                 <p className="text-ivory/60">Interactive Map</p>
-                <p className="text-sm text-ivory/40">123 Luxury Avenue, Premium City</p>
+                <p className="text-sm text-ivory/40">Knowledge Park-3, Greater Noida</p>
               </div>
             </div>
           </motion.div>

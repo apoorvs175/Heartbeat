@@ -26,7 +26,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Visit Us',
-      info: '123 Luxury Avenue, Premium City',
+      info: 'Knowledge Park-3, Greater Noida',
       href: 'https://maps.google.com',
       buttonText: 'View Map'
     },

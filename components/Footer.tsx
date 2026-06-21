@@ -69,10 +69,10 @@ const Footer = () => {
           >
             <h4 className="text-lg font-semibold mb-6 text-premium-gold">Contact</h4>
             <ul className="space-y-3 text-ivory/60">
-              <li>+1 234 567 890</li>
+              <li>8279998458</li>
               <li>info@heartbeathotel.com</li>
-              <li>123 Luxury Avenue</li>
-              <li>Premium City, PC 12345</li>
+              <li>Plot No. B-3, Near GL Bajaj Road, Near Expo India</li>
+              <li>Knowledge Park-3, Greater Noida, Uttar Pradesh – 201310</li>
             </ul>
           </motion.div>
         </div>
