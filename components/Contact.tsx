@@ -12,15 +12,15 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      info: '+1 234 567 890',
-      href: 'tel:+1234567890',
+      info: '8279998458',
+      href: 'tel:8279998458',
       buttonText: 'Call Now'
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      info: '+1 234 567 890',
-      href: 'https://wa.me/1234567890',
+      info: '8279998458',
+      href: 'https://wa.me/8279998458',
       buttonText: 'Chat Now'
     },
     {

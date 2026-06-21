@@ -85,7 +85,7 @@ const Rooms = () => {
                     ))}
                   </ul>
                   <a
-                    href="https://wa.me/1234567890"
+                    href="https://wa.me/8279998458"
                     className="mt-8 w-full block text-center py-3 border border-premium-gold/30 rounded-full text-premium-gold hover:bg-premium-gold hover:text-luxury-black transition-all duration-300 font-medium"
                   >
                     Enquire Now

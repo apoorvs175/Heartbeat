@@ -54,7 +54,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <motion.a
-            href="tel:+1234567890"
+            href="tel:8279998458"
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(212, 175, 55, 0.5)' }}
             whileTap={{ scale: 0.95 }}
             className="group px-8 py-4 bg-gradient-gold text-luxury-black rounded-full font-semibold flex items-center gap-3 hover:shadow-gold-glow transition-all duration-300"
@@ -63,7 +63,7 @@ const Hero = () => {
             Call Now
           </motion.a>
           <motion.a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/8279998458"
             whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(212, 175, 55, 0.3)' }}
             whileTap={{ scale: 0.95 }}
             className="group px-8 py-4 border border-premium-gold/50 text-ivory rounded-full font-semibold flex items-center gap-3 hover:bg-premium-gold/10 transition-all duration-300"
